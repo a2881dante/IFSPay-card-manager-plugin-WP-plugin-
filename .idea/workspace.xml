@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="791ba7f4-21d6-450e-8bb7-866fc97c87ed" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/app.css" afterPath="$PROJECT_DIR$/assets/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/balance_fin/components/balance/templates/template-login.php" afterPath="$PROJECT_DIR$/includes/balance_fin/components/balance/templates/template-login.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/balance_fin.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/balance_fin/components/balance/cookie/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/balance_fin/components/balance/cookie/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/balance_fin/components/balance/includes/Balance.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/balance_fin/components/balance/includes/BalanceInfo.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/balance_fin/components/balance/includes/config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/balance_fin/components/balance/includes/functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/balance_fin/components/balance/includes/simple_html_dom.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/balance_fin/components/balance/js/balance.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/balance_fin/components/balance/templates/template-balance.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/balance_fin/components/balance/templates/template-login.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/balance_fin/template-balance.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/fin/balance_fin.zip" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/fin/components/balance/templates/template-login.php" afterPath="$PROJECT_DIR$/includes/fin/components/balance/templates/template-login.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,21 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template-balance.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/balance_fin/template-balance.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1141">
-              <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="template-login.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/includes/balance_fin/components/balance/templates/template-login.php">
+        <entry file="file://$PROJECT_DIR$/includes/fin/components/balance/templates/template-login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+            <state relative-caret-position="405">
+              <caret line="27" column="52" lean-forward="false" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#article#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -70,24 +72,24 @@
         </entry>
       </file>
       <file leaf-file-name="template-balance.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/balance_fin/components/balance/templates/template-balance.php">
+        <entry file="file://$PROJECT_DIR$/includes/fin/components/balance/templates/template-balance.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="111" column="77" lean-forward="true" selection-start-line="111" selection-start-column="77" selection-end-line="111" selection-end-column="77" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1528051044000" expanded="true" signature="2985:4677" ph="..." />
-                <marker date="1528051044000" expanded="true" signature="3025:4677" ph="..." />
-                <marker date="1528051044000" expanded="true" signature="3061:3155" ph="..." />
-                <marker date="1528051044000" expanded="true" signature="3207:4677" ph="..." />
-                <marker date="1528051044000" expanded="true" signature="3339:4677" ph="..." />
-                <marker date="1528051044000" expanded="true" signature="3393:4112" ph="..." />
-                <marker date="1528051044000" expanded="true" signature="3556:4077" ph="..." />
-                <marker date="1528051044000" expanded="true" signature="4170:4677" ph="..." />
-                <marker date="1528051044000" expanded="true" signature="4338:4677" ph="..." />
-                <marker date="1528051044000" expanded="true" signature="4485:4554" ph="..." />
-                <marker date="1528051044000" expanded="true" signature="4665:4676" ph="..." />
-                <marker date="1528051044000" expanded="true" signature="4777:4837" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
-                <marker date="1528051044000" expanded="true" signature="5326:5588" ph="..." />
+                <marker date="1528387398531" expanded="true" signature="2985:4677" ph="..." />
+                <marker date="1528387398531" expanded="true" signature="3025:4677" ph="..." />
+                <marker date="1528387398531" expanded="true" signature="3061:3155" ph="..." />
+                <marker date="1528387398531" expanded="true" signature="3207:4677" ph="..." />
+                <marker date="1528387398531" expanded="true" signature="3339:4677" ph="..." />
+                <marker date="1528387398531" expanded="true" signature="3393:4112" ph="..." />
+                <marker date="1528387398531" expanded="true" signature="3556:4077" ph="..." />
+                <marker date="1528387398531" expanded="true" signature="4170:4677" ph="..." />
+                <marker date="1528387398531" expanded="true" signature="4338:4677" ph="..." />
+                <marker date="1528387398531" expanded="true" signature="4485:4554" ph="..." />
+                <marker date="1528387398531" expanded="false" signature="4665:4676" ph="..." />
+                <marker date="1528387398531" expanded="true" signature="4777:4837" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+                <marker date="1528387398531" expanded="true" signature="5326:5588" ph="..." />
               </folding>
             </state>
           </provider>
@@ -124,6 +126,8 @@
         <option value="$PROJECT_DIR$/crmp_card_register_manangment.php" />
         <option value="$PROJECT_DIR$/assets/css/app.css" />
         <option value="$PROJECT_DIR$/includes/balance_fin/components/balance/templates/template-login.php" />
+        <option value="$PROJECT_DIR$/includes/balance_fin/components/balance/templates/template-balance.php" />
+        <option value="$PROJECT_DIR$/includes/fin/components/balance/templates/template-login.php" />
       </list>
     </option>
   </component>
@@ -197,7 +201,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="balance_fin" />
+              <option name="myItemId" value="fin" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -215,7 +219,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="balance_fin" />
+              <option name="myItemId" value="fin" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -245,7 +249,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="balance_fin" />
+              <option name="myItemId" value="fin" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -320,20 +324,22 @@
       <option name="presentableId" value="Default" />
       <updated>1528833163748</updated>
       <workItem from="1528833165022" duration="1507000" />
-      <workItem from="1529346342517" duration="1525000" />
+      <workItem from="1529346342517" duration="2587000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3032000" />
+    <option name="totallyTimeSpent" value="4094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="722" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22374798" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -345,7 +351,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -410,32 +415,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/includes/balance_fin/components/balance/templates/template-login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/includes/balance_fin/components/balance/templates/template-balance.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="111" column="77" lean-forward="true" selection-start-line="111" selection-start-column="77" selection-end-line="111" selection-end-column="77" />
+        <state relative-caret-position="208">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/fin/components/balance/templates/template-balance.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1528051044000" expanded="true" signature="2985:4677" ph="..." />
-            <marker date="1528051044000" expanded="true" signature="3025:4677" ph="..." />
-            <marker date="1528051044000" expanded="true" signature="3061:3155" ph="..." />
-            <marker date="1528051044000" expanded="true" signature="3207:4677" ph="..." />
-            <marker date="1528051044000" expanded="true" signature="3339:4677" ph="..." />
-            <marker date="1528051044000" expanded="true" signature="3393:4112" ph="..." />
-            <marker date="1528051044000" expanded="true" signature="3556:4077" ph="..." />
-            <marker date="1528051044000" expanded="true" signature="4170:4677" ph="..." />
-            <marker date="1528051044000" expanded="true" signature="4338:4677" ph="..." />
-            <marker date="1528051044000" expanded="true" signature="4485:4554" ph="..." />
-            <marker date="1528051044000" expanded="true" signature="4665:4676" ph="..." />
-            <marker date="1528051044000" expanded="true" signature="4777:4837" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
-            <marker date="1528051044000" expanded="true" signature="5326:5588" ph="..." />
+            <marker date="1528387398531" expanded="true" signature="2985:4677" ph="..." />
+            <marker date="1528387398531" expanded="true" signature="3025:4677" ph="..." />
+            <marker date="1528387398531" expanded="true" signature="3061:3155" ph="..." />
+            <marker date="1528387398531" expanded="true" signature="3207:4677" ph="..." />
+            <marker date="1528387398531" expanded="true" signature="3339:4677" ph="..." />
+            <marker date="1528387398531" expanded="true" signature="3393:4112" ph="..." />
+            <marker date="1528387398531" expanded="true" signature="3556:4077" ph="..." />
+            <marker date="1528387398531" expanded="true" signature="4170:4677" ph="..." />
+            <marker date="1528387398531" expanded="true" signature="4338:4677" ph="..." />
+            <marker date="1528387398531" expanded="true" signature="4485:4554" ph="..." />
+            <marker date="1528387398531" expanded="false" signature="4665:4676" ph="..." />
+            <marker date="1528387398531" expanded="true" signature="4777:4837" ph="SELECT * FRO... ${$wpdb-&gt;prefix}" />
+            <marker date="1528387398531" expanded="true" signature="5326:5588" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/balance_fin/components/balance/templates/template-login.php">
+    <entry file="file://$PROJECT_DIR$/includes/fin/components/balance/templates/template-login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+        <state relative-caret-position="405">
+          <caret line="27" column="52" lean-forward="false" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
           <folding>
             <element signature="n#style#0;n#a#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#article#0;n#div#0;n#!!top" expanded="true" />
           </folding>
