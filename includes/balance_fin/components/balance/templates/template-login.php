@@ -10,7 +10,7 @@
                         <div class='row justify-content-center'>
                             <div class='col-12 col-sm-8'>
                                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="logo"></a>
-                                <p class="title">Receive information about last transactions:</p>
+                                <p class="title">Top-up your card with bitcoin and see the information about last transactions.</p>
                                 <form id="balance-login" action="<?php echo get_permalink(get_page_by_title('balance'));?>" method="post">
             
                                     <div class='form-group row'>
@@ -29,9 +29,14 @@
                                         </div>
                                     </div>
                                     <span class="toggle-pass js-toggle-pass"></span>
-                                
-                                    <input type='submit' class='col-sm-12' name='submit_person_register' value='Login'>
-                                    <a href="<?php echo get_option("crmp_core_link"); ?>?page=register">I still do not have a card. register a new card</a>
+
+                                    <div class="form-group d-flex justify-content-center">
+                                        <input type="submit" class="col-sm-6" name="submit_person_register" value="Login">
+                                    </div>
+                                    <a href="<?php echo get_option("crmp_core_link"); ?>?page=register"
+                                       style="color: #777777; text-decoration: underline;">
+                                        I still do not have a card. Register a new card
+                                    </a>
                                     
                                 </form>
                             </div>
