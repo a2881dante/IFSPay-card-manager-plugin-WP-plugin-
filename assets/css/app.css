@@ -2,3 +2,5 @@ a.navbar-brand {
     color: black;
 }
 
+a:visited { color: #777777 }
+a:active { color: #777777 }

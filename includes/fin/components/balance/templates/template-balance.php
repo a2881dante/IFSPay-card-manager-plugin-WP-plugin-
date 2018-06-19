@@ -32,21 +32,26 @@
                   <p>Card Status: <b>Normal</b></p>
 
                 </div>
+
+              <style>
+                  a:visited { color: #777777; }
+                  a { color: #777777; }
+              </style>
             
             <ul class="nav nav-tabs" id="balanceTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="refill-card-tab" data-toggle="tab" href="#refill-card" role="tab" aria-controls="refill-card" aria-selected="true">Refill card</a>
+                </li>
               <li class="nav-item">
-                <a class="nav-link active" id="transactions-tab" data-toggle="tab" href="#transactions" role="tab" aria-controls="transactions" aria-selected="true">Transactions</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="refill-card-tab" data-toggle="tab" href="#refill-card" role="tab" aria-controls="refill-card" aria-selected="false">Refill card</a>
+                <a class="nav-link" id="transactions-tab" data-toggle="tab" href="#transactions" role="tab" aria-controls="transactions" aria-selected="false">Transactions</a>
               </li>
             </ul>
             <div class="tab-content" id="myTabContent">
-              <div class="tab-pane fade show active" id="transactions" role="tabpanel" aria-labelledby="transactions-tab">
-                
+              <div class="tab-pane fade" id="transactions" role="tabpanel" aria-labelledby="transactions-tab">
+
                 <div class="table-wrp js-table-wrp" style="margin-top: 15px;">
 
-                    <?php 
+                    <?php
 
                       $TransactionTable = $balanceInfoObject->getRawTransationsList();
 
@@ -62,15 +67,15 @@
 
                       $TransactionTable = str_replace("<td>Credit (+)</td>", "<td scope='col'><b>Credit (+)</b></td>", $TransactionTable);
 
-                      echo $TransactionTable; 
+                      echo $TransactionTable;
 
                     ?>
 
                 </div>
 
               </div>
-              <div class="tab-pane fade" id="refill-card" role="tabpanel" aria-labelledby="refill-card-tab">
-              
+              <div class="tab-pane fade show active" id="refill-card" role="tabpanel" aria-labelledby="refill-card-tab">
+
                 <div style="margin-top: 15px;">
 
                 <?php
@@ -79,11 +84,11 @@
 
                   echo "<div class='container'><div class='row justify-content-center'>
 
-                  <p class='lead'>
-                     Here you can top up your card with cryptocurrency
+                  <p class='lead' style='color: #464a4c;'>
+                     Top-up your card with Bitcoin.
                   </p>
 
-                    <div class='col-12 col-sm-10'>
+                    <div class='col-12 col-sm-6'>
 
                         <form id='convert-form' class='container' method='POST' action='".get_option("bctc_convert_page_link")."'>
 
@@ -131,11 +136,12 @@
 
                             <input type=\"hidden\" name=\"action\" value=\"cbtc_convert_form\">
 
-                            <button
-                                    type='submit'
-                                    class='btn btn-primary btn-block g-recaptcha'                                    >
-                                <strong>Top Up</strong>
-                            </button>
+                            <div class=\"form-group d-flex justify-content-center\">
+                                 <button type=\"submit\" class=\"col-sm-4 btn btn-primary btn-block g-recaptcha\"
+                                    style='background: #03c4eb;'>
+                                       <strong>Top Up</strong>
+                                 </button>
+                            </div>
 
                         </form>
 
@@ -143,7 +149,7 @@
 
                 </div>
 
-                </div> <br>"; 
+                </div> <br>";
 
               }?>
 
