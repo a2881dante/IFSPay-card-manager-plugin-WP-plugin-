@@ -47,7 +47,13 @@
     function getRegisterView(){
 
         return "           
+                
                 <div class='container'>
+                
+                    <style>
+                        a:visited { color: #777777; }
+                        a { color: #777777; }
+                    </style>
                 
                     <ul class=\"nav nav-tabs\" id=\"myTab\" role=\"tablist\">
                         <li class=\"nav-item\">
@@ -166,7 +172,7 @@
                                         </div>
                                         
                                         <input type='checkbox' required=''>
-                                        <a  data-toggle=\"collapse\" href=\"#collapseRules\"  aria-expanded=\"false\" aria-controls=\"collapseRules\">
+                                        <a  data-toggle=\"collapse\" href=\"#collapseRules\" style=\"color: #777777; text-decoration: underline;\" aria-expanded=\"false\" aria-controls=\"collapseRules\">
                                             Please read the following terms and conditions and accept it.
                                         </a>
                                         <br>
@@ -175,9 +181,13 @@
                                                 ".get_terms_politics()."
                                             </div>
                                         </div>
-                                    
-                                        <input type='button' id='registerPersonal' onclick=\"handleFileSelectPersonal('image1Personal','image2Personal');\" class='btn btn-primary' value='Create'>
                                         
+                                        <div class=\"form-group d-flex justify-content-center\">
+                                             <input type='button' id='registerPersonal' 
+                                                onclick=\"handleFileSelectPersonal('image1Personal','image2Personal');\" 
+                                                class='btn btn-primary' value='Register'>
+                                        </div>
+                                    
                                     </form>
                                 </div>
                             </div>
@@ -314,7 +324,7 @@
                                         </div>
                                         
                                         <input type='checkbox' required=''>
-                                        <a  data-toggle=\"collapse\" href=\"#collapseRules1\"  aria-expanded=\"false\" aria-controls=\"collapseRules\">
+                                        <a  data-toggle=\"collapse\"  style=\"color: #777777; text-decoration: underline;\" href=\"#collapseRules1\"  aria-expanded=\"false\" aria-controls=\"collapseRules\">
                                             Please read the following terms and conditions and accept it.
                                         </a>
                                         <br>
@@ -324,7 +334,11 @@
                                             </div>
                                         </div>
                                         
-                                        <input type='button' id='registerCorporate' onclick=\"handleFileSelectCorporate('image1Corporate','image2Corporate','image3Corporate','image4Corporate');\" class='btn btn-primary' value='Register'>
+                                        <div class=\"form-group d-flex justify-content-center\">
+                                             <input type='button' id='registerCorporate' 
+                                                onclick=\"handleFileSelectCorporate('image1Corporate','image2Corporate','image3Corporate','image4Corporate');\" 
+                                                class='btn btn-primary' value='Register'>
+                                        </div>
                                         
                                     </form>
                                 </div>
@@ -414,7 +428,12 @@
     function getAltRegisterView(){
         return "           
                 <div class='container'>
-                
+                    
+                    <style>
+                        a:visited { color: #777777; }
+                        a { color: #777777; }
+                    </style>
+                    
                     <ul class=\"nav nav-tabs\" id=\"myTab\" role=\"tablist\">
                         <li class=\"nav-item\">
                             <a class=\"nav-link active\" id=\"personal-tab\" data-toggle=\"tab\" href=\"#personal\" role=\"tab\" 
@@ -523,7 +542,7 @@
                                         </div>
                                         
                                         <input type='checkbox' required=''>
-                                        <a  data-toggle=\"collapse\" href=\"#collapseRules\"  aria-expanded=\"false\" aria-controls=\"collapseRules\">
+                                        <a  data-toggle=\"collapse\" href=\"#collapseRules\" style=\"color: #777777; text-decoration: underline;\" aria-expanded=\"false\" aria-controls=\"collapseRules\">
                                             Please read the following terms and conditions and accept it.
                                         </a>
                                         <br>
@@ -534,7 +553,11 @@
                                         </div>
                                         <br>
                                     
-                                        <input type='button' id='registerPersonal' onclick=\"handleFileSelectPersonal('image1Personal','image2Personal');\" class='btn btn-primary col-12' value='Create'>
+                                        <div class=\"form-group d-flex justify-content-center\">
+                                             <input type='button' id='registerPersonal' 
+                                                onclick=\"handleFileSelectPersonal('image1Personal','image2Personal');\" 
+                                                class='btn btn-primary col-4' value='Register'>
+                                        </div>
                                         
                                     </form>
                                 </div>
@@ -662,7 +685,7 @@
                                         </div>
                                         
                                         <input type='checkbox' required=''>
-                                        <a  data-toggle=\"collapse\" href=\"#collapseRules1\"  aria-expanded=\"false\" aria-controls=\"collapseRules\">
+                                        <a  data-toggle=\"collapse\" href=\"#collapseRules1\" style=\"color: #777777; text-decoration: underline;\" aria-expanded=\"false\" aria-controls=\"collapseRules\">
                                             Please read the following terms and conditions and accept it.
                                         </a>
                                         <br>
@@ -673,7 +696,12 @@
                                         </div>
                                         <br>
                                         
-                                        <input type='button' id='registerCorporate' onclick=\"handleFileSelectCorporate('image1Corporate','image2Corporate','image3Corporate','image4Corporate');\" class='btn btn-primary col-12' value='Register'>
+                                        <div class=\"form-group d-flex justify-content-center\">
+                                             <input type='button' id='registerCorporate' 
+                                                onclick=\"handleFileSelectCorporate('image1Corporate','image2Corporate','image3Corporate','image4Corporate');\" 
+                                                class='btn btn-primary col-4' value='Register'>
+                                        
+                                        </div>
                                         
                                     </form>
                                 </div>
