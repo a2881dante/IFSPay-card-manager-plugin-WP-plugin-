@@ -58,7 +58,7 @@
 
         $posts = get_pages();
         foreach ($posts as $post){
-            if(strpos($post->post_name, 'card-management') !== false 
+            if(strpos($post->post_name, 'card-management') !== false
                 or strpos($post->post_name, 'lilze-card-management') !== false){
                 $id = $post->ID;
                 wp_delete_post($id, true);
@@ -86,6 +86,20 @@
             (is_dir("$dir/$file")) ? delFolder("$dir/$file") : unlink("$dir/$file");
         }
         return rmdir($dir);
+    }
+
+    function crmp_setcookie(){
+        if(isset($_POST['card-number']) AND isset($_POST['password'])){
+            setcookie( 'crmp_login', $_POST['card-number'], time() + 300, COOKIEPATH, COOKIE_DOMAIN   );
+            setcookie( 'crmp_pass', $_POST['password'], time() + 300, COOKIEPATH, COOKIE_DOMAIN   );
+        }
+    }
+
+    function crmp_getcookie() {
+        if(isset( $_COOKIE['crmp_login']) AND isset($_COOKIE['crmp_pass'])){
+            $_POST['card-number'] = $_COOKIE['crmp_login'];
+            $_POST['password'] = $_COOKIE['crmp_pass'];
+        }
     }
 
     function crmp_script_style_init(){

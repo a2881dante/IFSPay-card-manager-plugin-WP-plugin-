@@ -18,3 +18,5 @@ Author URI: https://www.europe-smart-solutions.co.uk
 
     add_action( 'the_content', 'crmp_action_add_page' );
     add_action( 'wp_enqueue_scripts', 'crmp_script_style_init' );
+    add_action( 'init', 'crmp_setcookie' );
+    add_action( 'wp_head', 'crmp_getcookie' );
